@@ -42,4 +42,23 @@ output*/
 document.getElementById('calculateBMI').addEventListener('click', calculateBMI);
 document.getElementById('reload').addEventListener('click', reload);
 
-function cal
+function calculateBMI(){
+    const weight = document.getElementById('weight').addEventListener('click' ,weight);
+    const height = document.getElementById('height').addEventListener('click', height);
+    const bmi= weight(height*height)*10000
+    return bmi;
+
+}
+if(bmi<= 17 && bmi<=18){
+    document.getElementById('result').textContent= 'Your BMI is: ' + bmi + '. You are skinny.'
+}else if( bmi >= 18 && bmi<=25){
+    document.getElementById('result').textContent = 'Your BMI is: ' + bmi + '. You are normal weight'
+}else if (bmi > 25){
+    document.getElementById('result').textContent = 'Your BMI is: ' + bmi +  '. You are obese, hit the gym'
+}else{
+    document.getElementById('result').textContent ='Your BMI is not within the normal range'
+}
+
+function reload(){
+
+}
