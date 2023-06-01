@@ -1,0 +1,71 @@
+*{
+    /* margin:0; */
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to right, rgb(255, 255, 7), rgba(59, 2, 2, 0.76)80%)
+}
+.container{
+    /* border:solid rebeccapurple; */
+    width:50%;
+    margin:auto;
+    
+}
+h1{
+    text-align: center;
+    color:rgb(59, 2, 2);
+    font-size:50px;
+}
+.one,.two,.three,.four{
+    padding-bottom:5px;
+    padding-top:5px;
+    font-size:large;
+    background-color:rgb(59, 2, 2) ;
+    margin-bottom:10px;
+}
+p{
+    color:yellow;
+    padding:20px;
+}
+.form{
+    color:rgb(59, 2, 2);
+    font-size:30px;
+    text-align:center;
+}
+.click{
+    display:flex;
+    justify-content:center; 
+}
+#reload{
+    margin-left:10px;
+}
+
+   
+
+input{
+    width:150px;
+    height:30px;
+    border:3px solid rgb(59, 2, 2);
+    border-radius:10px;
+    background-color:yellow;
+}
+form{
+    font-size:large;
+    color:rgb(59, 2, 2);
+}
+.enter{
+    display:flex;
+    justify-content:space-between;
+}
+#calculateBMI, #reload{
+    height:50px;
+    padding: 10px;
+    width:150px;
+    color: rgb(59, 2, 2);
+    border:3px solid rgb(59, 2, 2);
+    border-radius:10px;
+    background-color:yellow;
+
+}
+
